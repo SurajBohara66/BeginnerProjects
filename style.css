@@ -1,0 +1,354 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  height: 78px;
+  background-color: #80db80b8;
+}
+.navbar {
+  display: flex;
+  
+}
+.logo {
+  display: flex;
+}
+.logoImg {
+  height: 65px;
+  width: 71px;
+  margin: 10px 10px;
+}
+.logoImg img {
+  height: 100%;
+  width: 100%;
+}
+.logoName {
+  height: 50px;
+  width: 100px;
+  margin: 10px 10px;
+  position: relative;
+  top: 18px;
+  left: -10px;
+}
+.logoName p {
+  font-size: 27px;
+  font-weight: bold;
+  color: rgb(156, 156, 18);
+}
+.links {
+  position: absolute;
+  right: 70px;
+}
+.links ul {
+  display: flex;
+  position: relative;
+  top: 9px;
+}
+.links ul li {
+  list-style: none;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+.links ul li span {
+  color: black;
+  text-decoration: none;
+  font-size: 23px;
+  cursor: pointer;
+}
+.herosetion {
+  height: 670px;
+  width: 100%;
+}
+.herosetion::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 540px;
+  background: url(/highway\ \(1\).jpg) center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.89;
+  z-index: -4;
+}
+.locationImg {
+  height: 650px;
+  width: 586px;
+  position: relative;
+  top: 20px;
+  left: 30%;
+}
+.locationImg img {
+  height: 100%;
+  width: 100%;
+}
+.booking {
+  position: relative;
+  top: -71%;
+  left: 43%;
+  width: 300px;
+  height: 500px;
+}
+.address {
+  height: 40px;
+  width: 218px;
+  margin: 10px 10px;
+  padding: 2px 6px;
+  font-size: 17px;
+}
+.carImg {
+  position: relative;
+  top: -131%;
+  left: 42%;
+  width: 308px;
+  height: 203px;
+}
+.carImg img {
+  height: 100%;
+  width: 100%;
+}
+.fareCalculate {
+  position: relative;
+  top: -135%;
+  left: 47%;
+  width: 130px;
+}
+#fareButton {
+  height: 128px;
+  width: 128px;
+  background-color: #0cd10c;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+  border: none;
+}
+.working {
+  height: 450px;
+  width: 100%;
+
+  margin-top: -20px;
+  display: flex;
+}
+.ladyImg {
+  position: relative;
+  top: -9px;
+  left: 6px;
+
+  background-color: #80db80b8;
+  border-top-left-radius: 310px;
+  border-top-right-radius: 393px;
+  border-bottom-left-radius: 94px;
+  border-bottom-right-radius: 115px;
+}
+.ladyImg img {
+  height: 500px;
+  width: 500px;
+}
+
+.about {
+  position: absolute;
+  width: 600px;
+  height: 450px;
+  right: 0px;
+
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  position: relative;
+  top: -18px;
+
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 19px;
+  font-weight: bold;
+  margin: 10px 10px;
+}
+.howtoBook {
+  font-size: 29px;
+
+  margin: 10px 10px;
+}
+
+.bookingBrief p {
+  margin-top: 10px;
+  font-size: 21px;
+}
+.carTypes {
+  width: 100%;
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.fleetTitle {
+  font-size: 29px;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 12px;
+}
+.fleetAbout {
+  font-size: 23px;
+  margin-top: 12px;
+}
+.fleetImg {
+  position: relative;
+  top: -181px;
+}
+.fleetImg img {
+  width: 800px;
+  height: 600px;
+}
+
+.signupForm {
+  height: 400px;
+  width: 300px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  background-color: #80db80b8;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14px;
+  position: absolute;
+  top: 105px;
+  left: 544px;
+}
+.remove{
+  position: relative;
+  top: -52px;
+  left:43%;
+}
+.remove img{
+  height: 35px;
+  width: 47px;
+}
+.signupTitle {
+  display: flex;
+
+  justify-content: center;
+}
+.signupTitle p{
+font-size: 29px;
+font-weight: bold;
+position: relative;
+
+}
+.signupDetails {
+  height: 40px;
+  width: 218px;
+  margin: 10px 10px;
+  padding: 2px 6px;
+  font-size: 17px;
+}
+.submit{
+  position: relative;
+  top: 5px;
+ 
+
+}
+.submitButton{
+  background-color: #0cd10c;
+  border: none;
+  height: 50px;
+  width: 96px;
+  font-size: 21px;
+  padding: 5px;
+
+}
+.forgot{
+  position: relative;
+
+margin-top: 15px;
+}
+.findNearest::before{
+  content: "";
+  height: 400px;
+  width: 100%;
+  position: absolute;
+  z-index: -3;
+  background: url(/highway2.jpg) center no-repeat ;
+  background-size: cover;
+  opacity: 0.76;
+  
+}
+.findNearest{
+  height: 400px;
+  width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.nearCar{
+  margin-top: 10px;
+  display: flex;
+flex-direction: column;
+align-items: center;
+}
+.driver{
+  font-size: 31px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.tagline{
+  margin-top: 10px;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+.landmark{
+  margin-top: 10px;
+}
+.pincode{
+  height: 38px;
+  width: 350px;
+  padding: 10px;
+  font-size: 22px;
+outline: none;
+}
+.submitlandmark{
+  margin-top: 10px;
+}
+.pincodeSubmit{
+  height: 50px;
+  width: 160px;
+  padding: 10px;
+  font-size: 22px;
+
+}
+.footer{
+  height: 80px;
+  width: 100%;
+  background-color: #8d8d8d;
+
+  
+}
+.footer ul{
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  
+ 
+}
+.footer ul li{
+  list-style: none;
+  
+}
+.footer ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+
+  margin: 10px 15px;
+  font-size: 21px;
+}

@@ -1,2 +1,2 @@
-# BeginnerProjects
-Simple beginner UI clone using HTML,CSS and JavaScript.
+
+Simple beginner Car Renting UI clone using HTML,CSS and JavaScript.
